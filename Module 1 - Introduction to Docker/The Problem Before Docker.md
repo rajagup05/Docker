@@ -55,3 +55,37 @@ Testing machine
 Everyone says: `"It works on my machine."`
 
 This was one of the biggest problems in software development.
+
+### Traditional Deployment
+
+Suppose you're deploying a web application.
+
+```
+Application
+    │
+Python
+    │
+Libraries
+    │
+Operating System
+```
+
+If any one of these changes, the application may fail.
+
+Example:
+
+```
+Python 3.10
+
+↓
+
+Upgrade to Python 3.12
+
+↓
+
+Some library breaks
+
+↓
+
+Application crashes
+```
