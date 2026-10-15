@@ -150,3 +150,25 @@ Shipping containers changed everything.
         | Table                |
         +----------------------+
 
+Every ship,
+
+truck,
+
+and train
+
+can move the same container.
+
+Docker containers work exactly the same way.
+
+Instead of shipping furniture,
+
+Docker ships software.
+
+
+### What is Docker?
+
+Docker is a platform that packages an application and everything it needs into a portable container that runs consistently across different environments. 
+
+### What is a Container?
+
+A container is a lightweight isolated environment where an application runs.
