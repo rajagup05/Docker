@@ -89,3 +89,32 @@ Some library breaks
 
 Application crashes
 ```
+
+### Docker Solution
+
+Docker packages everything together.
+
+Instead of only sending your code,
+
+you send
+
+```
+Application
+
++
+
+Python
+
++
+
+Libraries
+
++
+
+Dependencies
+
++
+
+Configuration
+```
+
