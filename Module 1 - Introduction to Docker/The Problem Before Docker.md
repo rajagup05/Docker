@@ -172,3 +172,42 @@ Docker is a platform that packages an application and everything it needs into a
 ### What is a Container?
 
 A container is a lightweight isolated environment where an application runs.
+
+Imagine your computer is an apartment building.
+
+Computer
+
+        +-------------------------+
+        
+        Apartment 1
+        Python App
+        
+        Apartment 2
+        Node App
+        
+        Apartment 3
+        MySQL
+        
+        Apartment 4
+        Redis
+        
+        +-------------------------+
+
+Each apartment
+- has its own files
+- has its own processes
+- has its own network
+But they all share
+
+```
+Electricity
+Water
+Building
+```
+
+Similarly,
+containers share
+
+`Operating System Kernel`
+
+while keeping applications isolated.
