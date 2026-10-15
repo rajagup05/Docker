@@ -118,3 +118,35 @@ Dependencies
 Configuration
 ```
 
+This package is called an Image.
+When it runs,
+it becomes a Container.
+
+### Real World Analogy
+
+Think about shipping goods.
+Without containers
+
+```
+TV
+Chair
+Books
+Table
+```
+
+Everything is loaded separately.
+Messy.
+Slow.
+Easy to damage.
+
+Shipping containers changed everything.
+
+        +----------------------+
+        |     Container        |
+        |                      |
+        | TV                   |
+        | Chair                |
+        | Books                |
+        | Table                |
+        +----------------------+
+
