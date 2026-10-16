@@ -260,3 +260,30 @@ A VM looks like this
         VM 3
         Guest OS
         Application
+
+
+Each VM has
+- Full Operating System
+- Kernel
+- Drivers
+
+That means
+lots of RAM
+lots of storage
+slow startup
+
+Example
+Three Ubuntu VMs
+
+        Ubuntu
+        2 GB
+        
+        Ubuntu
+        2 GB
+        
+        Ubuntu
+        2 GB
+
+`6 GB RAM`
+
+just for operating systems.
