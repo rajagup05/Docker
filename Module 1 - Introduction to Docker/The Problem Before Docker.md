@@ -211,3 +211,23 @@ containers share
 `Operating System Kernel`
 
 while keeping applications isolated.
+
+### What is Isolation?
+
+Suppose you install `Python 3.8` on one container.
+
+Another container has `Python 3.12` 
+
+They don't interfere. 
+
+        Container A
+        
+        Python 3.8
+        
+        --------------
+        
+        Container B
+        
+        Python 3.12
+
+This is isolation.
