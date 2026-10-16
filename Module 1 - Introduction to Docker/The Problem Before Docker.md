@@ -287,3 +287,25 @@ Three Ubuntu VMs
 `6 GB RAM`
 
 just for operating systems.
+
+### Docker
+
+Docker looks like
+
+        Hardware
+              │
+        Host OS
+              │
+        Docker Engine
+              │
+        -------------------
+        Container 1
+        
+        Container 2
+        
+        Container 3
+
+
+Containers share `Kernel`
+
+Only applications are isolated.
