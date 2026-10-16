@@ -231,3 +231,32 @@ They don't interfere.
         Python 3.12
 
 This is isolation.
+
+### VM vs Docker
+
+Before Docker,
+companies used Virtual Machines.
+Let's understand both.
+
+### Virtual Machine
+
+A VM looks like this
+
+        Hardware
+              │
+        Host Operating System
+              │
+        Hypervisor
+              │
+        -------------------------
+        VM 1
+        Guest OS
+        Application
+        
+        VM 2
+        Guest OS
+        Application
+        
+        VM 3
+        Guest OS
+        Application
