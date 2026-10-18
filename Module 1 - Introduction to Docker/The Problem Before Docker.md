@@ -389,3 +389,33 @@ Start Services
 
 Run App
 ```
+
+### Docker Architecture
+
+Docker has several components.
+
+```
++----------------------+
+|      Docker CLI      |
++----------+-----------+
+           |
+           |
+           v
++----------------------+
+|   Docker Daemon      |
++----------+-----------+
+           |
+   ------------------
+   |       |        |
+ Images  Networks  Volumes
+   |
+Containers
+```
+
+### Docker CLI
+
+This is what you use.
+
+Example: `docker run nginx`
+
+CLI simply sends the request.
