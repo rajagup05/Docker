@@ -309,3 +309,51 @@ Docker looks like
 Containers share `Kernel`
 
 Only applications are isolated.
+
+### Memory Comparison
+
+Virtual Machine
+
+```
+VM1
+
+OS
+2 GB
+
+App
+
+----------------
+
+VM2
+
+OS
+2 GB
+
+App
+
+----------------
+
+VM3
+
+OS
+2 GB
+
+App
+```
+
+Docker
+
+```
+Host OS
+
+Docker Engine
+
+Container A
+
+Container B
+
+Container C
+```
+
+No separate operating systems.
+Huge memory savings.
