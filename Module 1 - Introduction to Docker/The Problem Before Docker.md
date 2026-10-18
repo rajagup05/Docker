@@ -357,3 +357,35 @@ Container C
 
 No separate operating systems.
 Huge memory savings.
+
+### Why is Docker Fast?
+
+Containers do not boot a complete operating system.
+Instead,
+they share `Linux Kernel`
+
+So Docker only starts the application.
+
+Example
+
+VM
+
+```
+Power On
+
+↓
+
+Boot BIOS
+
+↓
+
+Load Kernel
+
+↓
+
+Start Services
+
+↓
+
+Run App
+```
