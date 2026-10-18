@@ -455,3 +455,61 @@ Commands
 
 Configuration
 ```
+
+### Docker Container
+
+Running image
+↓
+Container
+
+Like
+
+```
+Recipe
+
+↓
+
+Cake
+```
+
+### Complete Flow
+
+You type
+
+`docker run nginx`
+
+Docker performs:
+
+```
+Step 1
+
+CLI receives command
+
+↓
+
+Step 2
+
+Daemon checks image
+
+↓
+
+Step 3
+
+Image missing?
+
+↓
+
+Downloads image
+
+↓
+
+Creates container
+
+↓
+
+Starts nginx
+
+↓
+
+Returns container ID
+```
