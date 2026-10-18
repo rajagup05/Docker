@@ -419,3 +419,39 @@ This is what you use.
 Example: `docker run nginx`
 
 CLI simply sends the request.
+
+### Docker Daemon
+
+The daemon is the brain.
+
+It
+- downloads images
+- creates containers
+- manages networks
+- manages storage
+- removes containers
+
+
+### Docker Image
+
+An image is
+
+```
+Template
+
+Blueprint
+
+Recipe
+```
+
+Example: Ubuntu image contains: 
+
+```
+Ubuntu Files
+
+Libraries
+
+Commands
+
+Configuration
+```
