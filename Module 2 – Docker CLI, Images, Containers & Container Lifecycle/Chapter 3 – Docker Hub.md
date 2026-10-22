@@ -37,3 +37,17 @@ Create Container
 ### Pull an Image
 
 Download an image without running it.
+
+`docker pull ubuntu`
+
+Output: 
+
+```
+Using default tag: latest
+
+Downloading...
+
+Status: Downloaded newer image
+```
+
+View downloaded images: `docker images`
