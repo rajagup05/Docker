@@ -16,3 +16,24 @@ When you run:
 
 Docker does this:
 
+```
+Check Local Image
+
+↓
+
+Found?
+ │
+ ├── Yes → Run
+ └── No
+       │
+       ▼
+Download from Docker Hub
+
+↓
+
+Create Container
+```
+
+### Pull an Image
+
+Download an image without running it.
