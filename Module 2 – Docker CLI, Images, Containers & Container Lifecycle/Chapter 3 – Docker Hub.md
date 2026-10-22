@@ -51,3 +51,13 @@ Status: Downloaded newer image
 ```
 
 View downloaded images: `docker images`
+
+Example: 
+
+```
+REPOSITORY   TAG      IMAGE ID      SIZE
+
+ubuntu       latest   65ae...       78MB
+
+nginx        latest   4ab...        190MB
+```
