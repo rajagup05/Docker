@@ -23,3 +23,15 @@ Image = Blueprint
 
 Container = House built from the blueprint
 ```
+
+One image can create many containers.
+Example:
+
+```
+ubuntu image
+
+      │
+      ├── Container 1
+      ├── Container 2
+      ├── Container 3
+```
