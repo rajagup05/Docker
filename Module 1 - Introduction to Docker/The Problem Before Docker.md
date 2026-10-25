@@ -135,9 +135,9 @@ Table
 ```
 
 Everything is loaded separately.
-Messy.
-Slow.
-Easy to damage.
+- Messy.
+- Slow.
+- Easy to damage.
 
 Shipping containers changed everything.
 
