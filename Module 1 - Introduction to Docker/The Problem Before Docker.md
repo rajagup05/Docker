@@ -118,9 +118,9 @@ Dependencies
 Configuration
 ```
 
-This package is called an Image.
+This package is called an `Image`.
 When it runs,
-it becomes a Container.
+it becomes a `Container`.
 
 ### Real World Analogy
 
