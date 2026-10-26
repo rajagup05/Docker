@@ -28,4 +28,4 @@ Docker Engine
 Container/Image
 ```
 
-The CLI doesn't run containers itself—it sends requests to the Docker daemon.
+The CLI doesn't run containers itself, it sends requests to the Docker daemon.
