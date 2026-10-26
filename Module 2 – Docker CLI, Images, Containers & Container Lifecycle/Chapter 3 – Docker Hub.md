@@ -10,6 +10,7 @@ It stores millions of images such as:
 - mysql
 - node
 - python
+
 When you run:
 
 `docker run nginx`
