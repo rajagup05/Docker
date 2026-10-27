@@ -82,3 +82,19 @@ Exit:
 `exit`
 
 Container stops after you exit.
+
+### Detached Mode
+
+Run a container in the background:
+
+`docker run -d nginx`
+
+Output:
+
+`d91fe18d7d......`
+
+This is the container ID.
+
+Now check:
+
+`docker ps`
