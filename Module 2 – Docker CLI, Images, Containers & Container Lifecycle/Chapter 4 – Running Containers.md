@@ -48,3 +48,37 @@ Container stops
 ```
 
 A container lives only as long as its main process.
+
+#### Interactive Containers
+
+Use: `docker run -it ubuntu`
+
+Flags:
+
+```
+-i  Interactive
+
+-t  Terminal (TTY)
+```
+
+Now you're inside Ubuntu.
+
+Try:
+
+```
+pwd
+
+ls
+
+whoami
+
+hostname
+
+cat /etc/os-release
+```
+
+Exit:
+
+`exit`
+
+Container stops after you exit.
