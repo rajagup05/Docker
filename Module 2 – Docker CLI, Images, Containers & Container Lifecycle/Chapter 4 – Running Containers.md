@@ -98,3 +98,29 @@ This is the container ID.
 Now check:
 
 `docker ps`
+
+Example:
+
+```
+CONTAINER ID
+
+IMAGE
+
+STATUS
+
+PORTS
+
+NAMES
+```
+
+### Foreground vs Background
+
+Foreground: `docker run ubuntu`
+
+Terminal is occupied.
+
+Background:
+
+`docker run -d nginx`
+
+Terminal returns immediately.
