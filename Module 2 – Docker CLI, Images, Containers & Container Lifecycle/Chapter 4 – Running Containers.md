@@ -155,7 +155,13 @@ Stopped
 ↓
 
 Removed
-```\
+```
 
+Commands:
 
+Create without running: `docker create nginx`
+
+Start: `docker start container_name`
+
+Stop: `docker stop container_name`
 
