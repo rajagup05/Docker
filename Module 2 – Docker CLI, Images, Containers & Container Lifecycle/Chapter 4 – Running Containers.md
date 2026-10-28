@@ -124,3 +124,15 @@ Background:
 `docker run -d nginx`
 
 Terminal returns immediately.
+
+### Container Naming
+
+Without a name: `docker run nginx`
+
+Docker generates something like: `determined_fermat`
+
+Give your own name: `docker run -d --name webserver nginx`
+
+Verify: `docker ps`
+
+
