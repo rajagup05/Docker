@@ -135,4 +135,27 @@ Give your own name: `docker run -d --name webserver nginx`
 
 Verify: `docker ps`
 
+### Container Lifecycle
+
+```
+Created
+
+↓
+
+Running
+
+↓
+
+Paused
+
+↓
+
+Stopped
+
+↓
+
+Removed
+```\
+
+
 
