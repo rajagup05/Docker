@@ -165,3 +165,12 @@ Start: `docker start container_name`
 
 Stop: `docker stop container_name`
 
+Restart: `docker restart container_name`
+
+Pause: `docker pause container_name`
+
+Resume: `docker unpause container_name`
+
+Delete: `docker rm container_name`
+
+Force delete: `docker rm -f container_name`
