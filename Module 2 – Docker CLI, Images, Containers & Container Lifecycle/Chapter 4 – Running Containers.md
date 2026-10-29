@@ -174,3 +174,22 @@ Resume: `docker unpause container_name`
 Delete: `docker rm container_name`
 
 Force delete: `docker rm -f container_name`
+
+### Inspect Running Containers
+
+Running containers: `docker ps`
+
+All containers: `docker ps -a`
+
+### Inspect Details
+
+`docker inspect webserver`
+
+Shows:
+- IP address
+- Network
+- Volumes
+- Environment variables
+- Mounts
+- Image
+- Creation time
