@@ -193,3 +193,19 @@ Shows:
 - Mounts
 - Image
 - Creation time
+
+### View Logs
+
+`docker logs webserver`
+
+Follow logs live: `docker logs -f webserver`
+
+### Execute Commands in a Running Container
+
+Instead of creating a new container: `docker exec -it webserver bash`
+
+You're now inside the running container.
+
+Exit: `exit`
+
+The container keeps running because its main process (Nginx) is still running.
