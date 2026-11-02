@@ -216,4 +216,14 @@ The container keeps running because its main process (Nginx) is still running.
 - `docker start`: Starts an existing stopped container.
 - `docker exec`: Runs a command inside an already running container.
 
+Example: `docker run --name demo ubuntu`
 
+Container created.
+
+Later: `docker start demo`
+
+Starts the same container.
+
+Later: `docker exec -it demo bash`
+
+Runs Bash inside it.
