@@ -209,3 +209,11 @@ You're now inside the running container.
 Exit: `exit`
 
 The container keeps running because its main process (Nginx) is still running.
+
+### Difference: `run`, `start`, and `exec`
+
+- `docker run`: Creates and starts a new container.
+- `docker start`: Starts an existing stopped container.
+- `docker exec`: Runs a command inside an already running container.
+
+
