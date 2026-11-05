@@ -29,4 +29,37 @@ CMD ["python3", "/app/app.py"]
 
 Docker executes each instruction and creates an image.
 
-Docker executes each instruction and creates an image.
+### Why Dockerfiles?
+
+Without a Dockerfile:
+
+```
+Developer 1
+
+Install Python
+
+Install Flask
+
+Copy files
+
+Run application
+```
+
+Developer 2 has to repeat every step manually.
+
+With a Dockerfile:
+
+```
+docker build .
+
+↓
+
+Everything happens automatically
+```
+
+Benefits:
+- Repeatable builds
+- Version controlled
+- Easy collaboration
+- Consistent environments
+- Automated CI/CD
