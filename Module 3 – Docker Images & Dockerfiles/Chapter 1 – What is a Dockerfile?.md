@@ -63,3 +63,43 @@ Benefits:
 - Easy collaboration
 - Consistent environments
 - Automated CI/CD
+
+### Docker Image Build Process
+
+When you run: `docker build -t myapp .`
+
+Docker performs:
+
+```
+Read Dockerfile
+
+↓
+
+Execute Line 1
+
+↓
+
+Create Layer
+
+↓
+
+Execute Line 2
+
+↓
+
+Create Layer
+
+↓
+
+Execute Line 3
+
+↓
+
+Create Layer
+
+↓
+
+Build Image
+```
+
+Every instruction creates a layer.
