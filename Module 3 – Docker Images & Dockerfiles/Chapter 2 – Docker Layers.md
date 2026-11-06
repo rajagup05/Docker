@@ -16,3 +16,30 @@ COPY app.py /app/
 
 CMD ["python3","/app/app.py"]
 ```
+
+Internally:
+
+```
+Layer 1
+Ubuntu Base
+
+↓
+
+Layer 2
+apt update
+
+↓
+
+Layer 3
+Install Python
+
+↓
+
+Layer 4
+Copy app.py
+
+↓
+
+Layer 5
+CMD
+```
