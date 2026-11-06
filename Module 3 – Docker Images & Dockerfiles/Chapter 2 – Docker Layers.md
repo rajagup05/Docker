@@ -43,3 +43,29 @@ Copy app.py
 Layer 5
 CMD
 ```
+
+Docker stores each layer separately.
+
+### Why Layers Matter
+
+Suppose you change only: `print("Hello Docker")` to `print("Hello World")`
+
+Only the COPY layer changes.
+
+Docker reuses all previous layers.
+
+```
+Old Build
+
+Layer 1 ✔
+
+Layer 2 ✔
+
+Layer 3 ✔
+
+Layer 4 ✖ Rebuild
+
+Layer 5 ✔
+```
+
+This is called **build caching**.
