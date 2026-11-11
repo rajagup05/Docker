@@ -18,3 +18,4 @@ COPY app.py .
 
 CMD ["python","app.py"]
 ```
+Cleaner and easier to maintain.
