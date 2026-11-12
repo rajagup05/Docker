@@ -14,3 +14,11 @@ FROM ubuntu
 
 CMD ["echo","Hello"]
 ```
+
+Run: `docker run image`
+
+Output: `Hello`
+
+Override: `docker run image ls`
+
+Output: `<directory listing>`
