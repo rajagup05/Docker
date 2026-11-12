@@ -52,3 +52,5 @@ ENTRYPOINT = Fixed executable
 
 CMD = Default arguments
 ```
+
+This pattern is common in production images.
