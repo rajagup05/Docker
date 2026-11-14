@@ -22,3 +22,9 @@ import os
 
 print("Application:", os.getenv("APP"))
 ```
+
+Build: `docker build -t final-demo .`
+
+Run: `docker run final-demo`
+
+Expected: `Application: Docker`
