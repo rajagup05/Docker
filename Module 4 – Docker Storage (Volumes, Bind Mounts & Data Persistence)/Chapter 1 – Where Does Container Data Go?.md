@@ -14,3 +14,15 @@ echo "Hello Docker" > /data/file.txt
 
 cat /data/file.txt
 ```
+
+Output: `Hello Docker`
+
+Now exit: `exit`
+
+Delete the container: `docker rm demo`
+
+Create a new container: `docker run -it ubuntu`
+
+Check: `cat /data/file.txt`
+
+Result: `No such file`
