@@ -27,3 +27,25 @@ apt update
 Layer 3
 Install curl
 ```
+
+When you run a container: 
+
+```
+Read-only Layers
+────────────────────
+
+Ubuntu
+
+apt update
+
+curl
+
+────────────────────
+Writable Layer
+```
+
+If you create:  `touch hello.txt`
+
+The file is stored only in the writable layer.
+
+The image itself never changes.
