@@ -47,3 +47,19 @@ Example:
 ```
 
 The `Mountpoint` is where Docker stores the volume on the host.
+
+### Using a Volume
+
+Run Ubuntu: 
+
+```
+docker run -it \
+-v mydata:/data \
+ubuntu
+```
+
+Inside:
+
+`echo "Docker Storage" > /data/test.txt`
+
+Exit: `exit`
