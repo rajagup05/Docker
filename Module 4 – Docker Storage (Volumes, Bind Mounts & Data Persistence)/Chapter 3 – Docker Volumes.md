@@ -63,3 +63,19 @@ Inside:
 `echo "Docker Storage" > /data/test.txt`
 
 Exit: `exit`
+
+Remove container: `docker rm <container-id>`
+
+Create another container:
+
+```
+docker run -it \
+-v mydata:/data \
+ubuntu
+```
+
+Check: `cat /data/test.txt`
+
+Output: `Docker Storage`
+
+Your data survived because it was stored in the volume.
