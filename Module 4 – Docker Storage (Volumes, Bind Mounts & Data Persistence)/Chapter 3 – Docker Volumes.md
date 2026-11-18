@@ -31,3 +31,19 @@ DRIVER    VOLUME NAME
 
 local     mydata
 ```
+
+Inspect: `docker volume inspect mydata`
+
+Example: 
+
+```
+[
+  {
+    "Name": "mydata",
+    "Driver": "local",
+    "Mountpoint": "/var/lib/docker/volumes/mydata/_data"
+  }
+]
+```
+
+The `Mountpoint` is where Docker stores the volume on the host.
