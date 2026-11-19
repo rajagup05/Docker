@@ -99,3 +99,26 @@ Everything Gone
 ```
 
 With volume:
+
+```
+Container
+
+┌──────────────┐
+│ /data        │
+└──────┬───────┘
+       │
+       ▼
+Volume
+
+┌──────────────┐
+│ file.txt     │
+└──────────────┘
+```
+
+Delete container:
+
+```
+Container Gone
+
+Volume Still Exists
+```
