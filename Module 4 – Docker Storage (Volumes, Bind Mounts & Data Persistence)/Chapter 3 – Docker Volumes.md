@@ -79,3 +79,23 @@ Check: `cat /data/test.txt`
 Output: `Docker Storage`
 
 Your data survived because it was stored in the volume.
+
+### Visual Explanation
+
+Without volume:
+
+```
+Container
+
+┌──────────────┐
+│ file.txt     │
+└──────────────┘
+
+Delete Container
+
+↓
+
+Everything Gone
+```
+
+With volume:
