@@ -19,3 +19,20 @@ docker run -it \
 ubuntu
 ```
 
+Inside: `echo "Module 4 Complete" > /notes/status.txt`
+
+Exit.
+
+Remove the container.
+
+Run another Ubuntu container using the same volume:
+
+```
+docker run -it \
+-v student-data:/notes \
+ubuntu
+```
+
+Check: `cat /notes/status.txt`
+
+Expected: `Module 4 Complete`
