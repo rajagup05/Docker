@@ -28,3 +28,31 @@ docker run -it \
 -v $(pwd):/app \
 ubuntu
 ```
+
+If your current directory contains: 
+
+```
+app.py
+README.md
+config.json
+```
+
+Inside the container: 
+
+```
+cd /app
+
+ls
+```
+
+You'll see:
+
+```
+app.py
+
+README.md
+
+config.json
+```
+
+The container is using the host directory directly.
