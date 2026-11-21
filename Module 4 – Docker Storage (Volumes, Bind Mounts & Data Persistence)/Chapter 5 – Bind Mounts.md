@@ -56,3 +56,14 @@ config.json
 ```
 
 The container is using the host directory directly.
+
+### Volume vs Bind Mount
+
+    Feature	Volume	Bind Mount
+    
+    Managed by Docker  ✅	❌
+    Uses host directory  ❌	✅
+    Easy backup  ✅	Depends
+    Good for databases  ✅	Sometimes
+    Good for source code  ❌	✅
+
