@@ -67,3 +67,32 @@ The container is using the host directory directly.
     Good for databases  ✅	Sometimes
     Good for source code  ❌	✅
 
+
+### Workflow
+
+Suppose you have:
+
+```
+project/
+
+app.py
+requirements.txt
+Dockerfile
+```
+
+Run: 
+
+```
+docker run \
+-v $(pwd):/app \
+python:3.12 \
+python /app/app.py
+```
+
+Edit `app.py` on your host.
+
+Run again.
+
+The container immediately sees the updated file.
+
+No image rebuild needed.
