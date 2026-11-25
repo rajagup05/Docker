@@ -16,3 +16,10 @@ cd34...         host      host
 
 ef56...         none      null
 ```
+
+Inspect the bridge network: `docker network inspect bridge`
+
+You'll see:
+- Subnet
+- Gateway
+- Connected containers
