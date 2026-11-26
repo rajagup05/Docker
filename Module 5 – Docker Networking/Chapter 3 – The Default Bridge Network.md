@@ -23,3 +23,18 @@ You'll see:
 - Subnet
 - Gateway
 - Connected containers
+
+### What Happens? 
+
+Run: `docker run -d --name web nginx`
+
+Inspect: `docker inspect web` 
+
+Part of the output: `"IPAddress": "172.17.0.2"` 
+
+
+Docker automatically assigns:
+- an IP address
+- a virtual network interface
+- a route
+to the container.
