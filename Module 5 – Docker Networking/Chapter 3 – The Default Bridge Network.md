@@ -38,3 +38,33 @@ Docker automatically assigns:
 - a virtual network interface
 - a route
 to the container.
+
+### Visual
+
+```
+Host
+
+Docker Bridge
+
+172.17.0.1
+
+      │
+
+-----------------------
+
+172.17.0.2
+
+Container A
+
+-----------------------
+
+172.17.0.3
+
+Container B
+
+-----------------------
+
+172.17.0.4
+
+Container C
+```
